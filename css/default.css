@@ -292,18 +292,45 @@ h6 { font-size: 16px;}
 	padding-bottom: 50px;
 	padding-top: 50px;
 	gap:100px;
+
 }
 
-
+/* 
 #skills{
 	display: flex;
 	justify-content: space-evenly;
 	background-color: var(--previewShadow);
+	
+} */
+.skill {
+	background-color: var(--previewShadow);
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	margin-top: -10px;
 }
-#experience{
+.skill .list-item{
+	flex: 1 0 calc(25% - 10px);
+	box-sizing: border-box;
+	padding: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.experiences{
 	display: flex;
 	justify-content: space-evenly;
 	background-color: var(--previewShadow);
+	flex-wrap: wrap;
+	margin-left: -10px;
+	margin-top: -10px;
+}
+.experiences .list-item{
+	flex: 1 0 calc(25% - 10px);
+	box-sizing: border-box;
+	padding: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
 }
 
 .social-links{
@@ -414,6 +441,7 @@ h6 { font-size: 16px;}
 			'right-column'
 		;
 	}
+	
 
 	.right-column{
 		justify-content: center;
