@@ -30,3 +30,20 @@
 	color:#fff;
 	font-size: 14px;
 }
+
+.flag {
+	position: relative;
+	display: inline;
+	background: rgb(27, 113, 110);
+	padding: 6px 10px;
+	border-radius: 5px;
+	
+	font-weight: 600;
+	text-align: left;
+  }
+
+  .time {
+	display: inline-block;
+	padding: 4px 6px;
+	background: rgb(215, 8, 8);
+  }
